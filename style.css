@@ -1,0 +1,75 @@
+body {
+    background-color: #2875da;
+}
+
+.principalTitle {
+    font-size: 55px;
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #2b1164;
+    padding: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #080808;
+}
+
+.centralizedTitle {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(223, 223, 223);
+}
+
+p {
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+#mission {
+    font-size: 25px;
+}
+
+strong {
+    color: rgb(185, 174, 21);
+}
+
+em strong {
+    color: rgb(94, 94, 255);
+}
+
+.benefits {
+    background: #2875da;
+}
+
+.benefitsTitle {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+}
+
+ul {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0a0a0a;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.benefitsImage {
+    width: 50%;
+    margin: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #080808;
+}
