@@ -1,10 +1,5 @@
 body {
-    background-color: #2875da;
-}
-
-.principalTitle {
-    font-size: 55px;
-    padding-left: 20px;
+    background: #f1f1f1;
 }
 
 #banner {
@@ -12,17 +7,27 @@ body {
 }
 
 .principal {
-    background: #2b1164;
+    background: url("bg.jpg");
     padding: 30px;
     border-style: solid;
     border-width: 5px;
     border-color: #080808;
+    margin: 0 15px;
 }
 
 .centralizedTitle {
+    margin-bottom: 20px;
     font-size: 45px;
     text-align: center;
     color: rgb(223, 223, 223);
+    transition: 0.3s;
+}
+
+.principal:hover .centralizedTitle {
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: #b98c0f;
 }
 
 p {
@@ -32,10 +37,11 @@ p {
 
 #mission {
     font-size: 25px;
+    margin: 20px 0;
 }
 
 strong {
-    color: rgb(185, 174, 21);
+    color: #b98c0f;
 }
 
 em strong {
@@ -43,26 +49,29 @@ em strong {
 }
 
 .benefits {
-    background: #2875da;
+    margin-top: 20px;
 }
 
 .benefitsTitle {
-    font-size: 45px;
+    font-size: 60px;
     text-align: center;
     color: rgb(8, 8, 8);
 }
 
-ul {
-    font-size: 30px;
+.benefits ul {
+    font-size: 35px;
     font-weight: bold;
-    color: #0a0a0a;
+    color: #0e0e0e;
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    margin-left: 20px;
+    list-style-type: disc;
 }
 
 .itens {
+    margin-top: 20px;
     font-style: italic;
 }
 
