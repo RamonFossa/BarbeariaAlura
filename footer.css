@@ -9,3 +9,45 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .box, .principal, .benefitsContent, .mapContent, .video, .normalTitle, .products, main, form {
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    h1, .products h2, .products p, form, .box{
+        text-align: center;
+    }
+
+    .normalInput, table {
+        margin: 0 auto 13px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .submit:hover {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    .normalTitle {
+        font-size: 50px;
+    }
+
+    .products li {
+        display: block;
+        margin-bottom: 1em;
+        width: auto;
+    }
+
+    .products li:hover {
+        margin: 5em 0 5em 0;
+    }
+
+    .benefitsList, .benefitsImage {
+        width: 100%;
+    }
+}
