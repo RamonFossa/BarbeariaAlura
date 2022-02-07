@@ -45,7 +45,7 @@ strong {
 }
 
 em strong {
-    color: rgb(94, 94, 255);
+    color: #b98c0f;
 }
 
 .benefits {
@@ -68,6 +68,15 @@ em strong {
     margin-right: 15%;
     margin-left: 20px;
     list-style-type: disc;
+}
+
+.benefits li {
+    transition: 1s, 0.2s color;
+}
+
+.benefits li:hover{
+    font-size: 45px;
+    color:#ffbe0a;
 }
 
 .itens {
